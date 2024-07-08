@@ -50,8 +50,9 @@ print(my_dict.get('Мария', 'Такого ключа нет'))
 my_dict.update({'Саша': 2005,
                'Макс': 2000})
 
-del my_dict['Дарья']
-print(my_dict)
+#del my_dict['Дарья']
+removed_key = my_dict.pop('Дарья')
+print(removed_key)
 
 
 
